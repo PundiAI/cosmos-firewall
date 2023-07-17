@@ -5,8 +5,8 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/overload-ak/cosmos-firewall/config"
-	"github.com/overload-ak/cosmos-firewall/internal/middleware"
+	"github.com/FunctionX/cosmos-firewall/config"
+	"github.com/FunctionX/cosmos-firewall/internal/middleware"
 )
 
 func TestValidatorRouters(t *testing.T) {

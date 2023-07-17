@@ -14,8 +14,8 @@ import (
 	"github.com/tendermint/tendermint/rpc/jsonrpc/server"
 	tmtypes "github.com/tendermint/tendermint/rpc/jsonrpc/types"
 
-	"github.com/overload-ak/cosmos-firewall/internal/middleware"
-	"github.com/overload-ak/cosmos-firewall/logger"
+	"github.com/FunctionX/cosmos-firewall/internal/middleware"
+	"github.com/FunctionX/cosmos-firewall/logger"
 )
 
 func JSONRPCHandler(ctx context.Context, validator middleware.Validator, director middleware.Director) http.HandlerFunc {

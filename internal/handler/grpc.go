@@ -12,9 +12,9 @@ import (
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 
-	"github.com/overload-ak/cosmos-firewall/internal/middleware"
-	"github.com/overload-ak/cosmos-firewall/internal/types"
-	"github.com/overload-ak/cosmos-firewall/logger"
+	"github.com/FunctionX/cosmos-firewall/internal/middleware"
+	"github.com/FunctionX/cosmos-firewall/internal/types"
+	"github.com/FunctionX/cosmos-firewall/logger"
 )
 
 func TransparentHandler(ctx context.Context, validator middleware.Validator, director middleware.Director) grpc.StreamHandler {

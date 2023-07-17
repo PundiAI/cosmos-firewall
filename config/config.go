@@ -6,7 +6,7 @@ import (
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	"github.com/overload-ak/cosmos-firewall/internal/types"
+	"github.com/FunctionX/cosmos-firewall/internal/types"
 )
 
 const (

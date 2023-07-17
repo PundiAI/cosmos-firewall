@@ -12,8 +12,8 @@ import (
 	"github.com/cosmos/cosmos-sdk/types/tx"
 	"github.com/gogo/protobuf/proto"
 
-	"github.com/overload-ak/cosmos-firewall/internal/middleware"
-	"github.com/overload-ak/cosmos-firewall/logger"
+	"github.com/FunctionX/cosmos-firewall/internal/middleware"
+	"github.com/FunctionX/cosmos-firewall/logger"
 )
 
 func RestHandler(ctx context.Context, validator middleware.Validator, director middleware.Director) http.HandlerFunc {

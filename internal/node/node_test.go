@@ -4,7 +4,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/overload-ak/cosmos-firewall/internal/node"
+	"github.com/FunctionX/cosmos-firewall/internal/node"
 )
 
 func TestJSONRPCNode(t *testing.T) {

@@ -1,4 +1,4 @@
-module github.com/overload-ak/cosmos-firewall
+module github.com/FunctionX/cosmos-firewall
 
 go 1.19
 

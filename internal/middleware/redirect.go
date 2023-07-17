@@ -12,8 +12,8 @@ import (
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 
-	"github.com/overload-ak/cosmos-firewall/internal/node"
-	"github.com/overload-ak/cosmos-firewall/internal/types"
+	"github.com/FunctionX/cosmos-firewall/internal/node"
+	"github.com/FunctionX/cosmos-firewall/internal/types"
 )
 
 type Director func(ctx context.Context, height int64) (*RedirectClient, error)

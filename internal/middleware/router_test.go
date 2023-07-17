@@ -12,7 +12,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/tendermint/tendermint/rpc/core"
 
-	"github.com/overload-ak/cosmos-firewall/internal/middleware"
+	"github.com/FunctionX/cosmos-firewall/internal/middleware"
 )
 
 func TestApplicationRouters(t *testing.T) {

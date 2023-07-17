@@ -14,7 +14,7 @@ import (
 	"github.com/tendermint/tendermint/rpc/core"
 	"github.com/tendermint/tendermint/rpc/jsonrpc/server"
 
-	"github.com/overload-ak/cosmos-firewall/internal/application"
+	"github.com/FunctionX/cosmos-firewall/internal/application"
 )
 
 type Routers struct {

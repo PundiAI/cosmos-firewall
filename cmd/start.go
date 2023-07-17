@@ -14,12 +14,12 @@ import (
 	"golang.org/x/sync/errgroup"
 	"google.golang.org/grpc"
 
-	"github.com/overload-ak/cosmos-firewall/config"
-	"github.com/overload-ak/cosmos-firewall/internal/handler"
-	"github.com/overload-ak/cosmos-firewall/internal/middleware"
-	"github.com/overload-ak/cosmos-firewall/internal/node"
-	"github.com/overload-ak/cosmos-firewall/internal/types"
-	"github.com/overload-ak/cosmos-firewall/logger"
+	"github.com/FunctionX/cosmos-firewall/config"
+	"github.com/FunctionX/cosmos-firewall/internal/handler"
+	"github.com/FunctionX/cosmos-firewall/internal/middleware"
+	"github.com/FunctionX/cosmos-firewall/internal/node"
+	"github.com/FunctionX/cosmos-firewall/internal/types"
+	"github.com/FunctionX/cosmos-firewall/logger"
 )
 
 func start() *cobra.Command {

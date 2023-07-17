@@ -18,8 +18,8 @@ import (
 	"google.golang.org/grpc/credentials/google"
 	"google.golang.org/grpc/credentials/insecure"
 
-	"github.com/overload-ak/cosmos-firewall/internal/types"
-	"github.com/overload-ak/cosmos-firewall/logger"
+	"github.com/FunctionX/cosmos-firewall/internal/types"
+	"github.com/FunctionX/cosmos-firewall/logger"
 )
 
 type INode interface {

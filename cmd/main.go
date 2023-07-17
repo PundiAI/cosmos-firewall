@@ -4,9 +4,9 @@ import (
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
 
-	"github.com/overload-ak/cosmos-firewall/config"
-	"github.com/overload-ak/cosmos-firewall/internal/middleware"
-	"github.com/overload-ak/cosmos-firewall/logger"
+	"github.com/FunctionX/cosmos-firewall/config"
+	"github.com/FunctionX/cosmos-firewall/internal/middleware"
+	"github.com/FunctionX/cosmos-firewall/logger"
 )
 
 const (
