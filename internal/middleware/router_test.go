@@ -1,7 +1,6 @@
 package middleware_test
 
 import (
-	"fmt"
 	"net/url"
 	"os"
 	"reflect"
@@ -54,19 +53,16 @@ func TestRawHeight(t *testing.T) {
 	for _, u := range urls {
 		parsedURL, err := url.Parse(u)
 		if err != nil {
-			fmt.Printf("Failed to parse URL: %s\n", err)
+			t.Logf("Failed to parse URL: %s\n", err)
 			continue
 		}
 		values := parsedURL.Query()
 		height := values.Get("height")
 		if height != "" {
-			fmt.Printf("Height: %s\n", height)
-			fmt.Println()
+			assert.EqualValues(t, "100", height)
+			continue
 		}
-		height2, err := strconv.ParseInt(height, 10, 64)
-		if err != nil {
-			t.Fatal(err)
-		}
-		fmt.Printf("%d\n", height2)
+		_, err = strconv.ParseInt(height, 10, 64)
+		assert.Error(t, err)
 	}
 }
