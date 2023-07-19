@@ -31,5 +31,6 @@
 ### docker start
 ```shell
 1. docker build . -t functionX/cosmos-firewall
-2. docker run -idt --name firewall -p 26657:26657 -p 1317:1317 -p 9090:9090 -v `pwd`/config:/build/config functionX/cosmos-firewall --config /build/config/config.toml
+2. docker run -idt --name firewall -p 26657:26657 -p 1317:1317 -p 9090:9090 -v `pwd`/config:/build/config functionX/cosmos-firewall start --config /build/config/config.toml
 ```
+
