@@ -32,7 +32,7 @@ white-routers = []
 extension-options = 0
 
 # limit the number of non-critical extension options
-non-critical-extension_options = 0
+non-critical-extension-options = 0
 
 # is granter set (default value is 0 for not set, 1 for set)
 granter = 0
