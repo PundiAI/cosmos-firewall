@@ -8,7 +8,7 @@ require (
 	github.com/fatih/color v1.13.0
 	github.com/functionx/fx-core/v4 v4.2.1
 	github.com/gogo/protobuf v1.3.3
-	github.com/gorilla/mux v1.8.0
+	github.com/gorilla/mux v1.8.1
 	github.com/grpc-ecosystem/grpc-gateway v1.16.0
 	github.com/pkg/errors v0.9.1
 	github.com/spf13/cobra v1.7.0
