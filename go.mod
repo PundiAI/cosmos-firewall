@@ -5,7 +5,7 @@ go 1.19
 require (
 	github.com/cosmos/cosmos-sdk v0.46.13
 	github.com/evmos/ethermint v0.22.0
-	github.com/fatih/color v1.13.0
+	github.com/fatih/color v1.17.0
 	github.com/functionx/fx-core/v4 v4.2.1
 	github.com/gogo/protobuf v1.3.3
 	github.com/gorilla/mux v1.8.0
@@ -123,7 +123,7 @@ require (
 	github.com/magiconair/properties v1.8.7 // indirect
 	github.com/manifoldco/promptui v0.9.0 // indirect
 	github.com/mattn/go-colorable v0.1.13 // indirect
-	github.com/mattn/go-isatty v0.0.18 // indirect
+	github.com/mattn/go-isatty v0.0.20 // indirect
 	github.com/mattn/go-runewidth v0.0.9 // indirect
 	github.com/matttproud/golang_protobuf_extensions v1.0.4 // indirect
 	github.com/mimoo/StrobeGo v0.0.0-20210601165009-122bf33a46e0 // indirect
@@ -180,7 +180,7 @@ require (
 	golang.org/x/mod v0.9.0 // indirect
 	golang.org/x/net v0.9.0 // indirect
 	golang.org/x/oauth2 v0.5.0 // indirect
-	golang.org/x/sys v0.7.0 // indirect
+	golang.org/x/sys v0.18.0 // indirect
 	golang.org/x/term v0.7.0 // indirect
 	golang.org/x/text v0.9.0 // indirect
 	golang.org/x/xerrors v0.0.0-20220907171357-04be3eba64a2 // indirect
