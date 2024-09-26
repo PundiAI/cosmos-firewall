@@ -25,7 +25,7 @@ jobs:
         with:
           go-version: 1.19
           cache: false
-      - uses: golangci/golangci-lint-action@v3
+      - uses: golangci/golangci-lint-action@v6
         with:
           version: v1.50.0
           args: --fix --out-format=tab --issues-exit-code=0
